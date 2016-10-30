@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" href="css/main.css" media="all">
+	<script src="js/jquery.js"></script>
+	<!-- <script src="js/jquery-1.8.3.min.js"></script> -->
+	
+	<title>Home</title>
+</head>
+<body>
+<div class="head">
+	<div class="container clearfix">
+		<div class="header">
+			<div class="logo"><a href="">Car Racing</a></div>
+			<div class="nav-menu">
+				<span class="menu"><img src="images/nav.png" alt=""> </span>
+				<ul class="clearfix">
+					<li><a href="">home</a></li>
+					<li><a href="">about</a></li>
+					<li><a href="">services</a></li>
+					<li><a href="">racing</a></li>
+					<li><a href="">typo</a></li>
+					<li><a href="">concat</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="Search here">
+				<input type="button" value="sub">
+			</div>
+		</div>
+	</div>
+	<div class="slider clearfix">
+		  <div class="callbacks_container clearfix">
+			  	<ul class="rslides" id="slider">
+				
+					<div class="slid banner1">
+						  <div class="caption">
+								<h3>Do Everything To Be The Firstss</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat ex, eu vehicula velit efficitur non.</p>
+								<a href="#" class="button">read more</a>
+						  </div>
+					</div>
+				
+				
+					 <div class="slid banner2">	
+						  <div class="caption">
+								<h3>Do Everything To Be The Firstss</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat ex, eu vehicula velit efficitur non.</p>
+								<a href="#" class="button">read more</a>
+						  </div>
+					 </div>
+				
+				
+					<div class="slid banner3">	
+						<div class="caption">
+							<h3>Do Everything To Be The Firstss</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec pellentesque ex. Morbi iaculis mi in varius auctor. Nullam feugiat erat ex, eu vehicula velit efficitur non.</p>
+							<a href="#" class="button">read more</a>
+						</div>
+					</div>
+			  	</ul>
+			  <script src="js/responsiveslides.min.js"></script>
+			  	<script>
+					$(function () {
+					  	$("#slider").responsiveSlides({
+							auto:true,
+							nav: true,
+							pause: false,
+							speed: 500,
+							namespace: "callbacks",
+							pager:true,
+					  	});
+					});
+		
+	   			</script>
+		 </div>
+	 </div>
+</div>
+	
+
+
+
+
+
+
+
+
+<!-- <script src="js/jquery.js"></script> -->
+<script src="js/bootstrap.js"></script>
+<script>
+	$(function(){
+		$('.menu').click(function(){
+			$('.nav-menu ul').slideToggle('slow');
+		})
+	})
+</script>
+</body>
+</html>
