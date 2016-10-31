@@ -31,7 +31,22 @@ text-indent: -9999px; background: url(../images/search.png) no-repeat center cen
 
 
 /*slide*/
-
+.banner1{
+	background:url(../images/bnr1.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:638px;
+	z-index: 33;
+}
+.banner2{
+	background:url(../images/bnr2.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:638px;
+}
+.banner3{
+	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:638px;
+}
 .slider{ width: 100%; position: relative; top:0; left:0;}
 .rslides{ position: relative; width: 100%;}
 .rslides img {display: block;height: auto;float: left;width: 100%;
@@ -44,8 +59,8 @@ text-indent: -9999px; background: url(../images/search.png) no-repeat center cen
 .caption p{ font-size: 1.5rem;color: #fff;line-height: 1.8rem;
     padding: 1rem 0 2rem;}
 .caption a.button {
-    font-size: 1em;
-    padding: 0.5em 1em;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     color: #fff;
     text-decoration: none;
     background: #05a581;
@@ -90,62 +105,49 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .incredible {
-    padding: 4em 0;
+    padding: 4rem 0;
     text-align: center;
 }
 .incredible h3 {
-    font-size: 3em;
+    font-size: 3.5rem;
     text-transform: capitalize;
     color: #333033;
    font-family: 'ContrailOne-Regular';
 }
 .incredible-grids {
-    margin-top: 3em;
+    margin-top: 3rem;
 }
 .incredible-grid h4{
-	font-size:1.5em;
+	font-size:2rem;
 	text-transform:capitalize;
-	margin:0.5em 0; 
+	margin:0.5rem 0; 
 	color:#333033;
 	font-family: 'ContrailOne-Regular';
 }
 .incredible-grid p {
-    font-size: 1em;
-	line-height:1.8em;
+    font-size: 1.5rem;
+	line-height:1.8rem;
 	color: #777;
+	font-family: 'ContrailOne-Regular';
 }
 .training {
-    padding: 0em 0 4em;
+    padding: 0rem 0 4rem;
 }
 .training h3 {
-    font-size: 3em;
+    font-size: 3rem;
     text-transform: capitalize;
     color: #333033;
-   font-family: 'ContrailOne-Regular';
-    margin-bottom: 0.5em;
+    font-family: 'ContrailOne-Regular';
+    margin-bottom: 0.5rem;
 }
 .training-grid p {
-    font-size: 1em;
-	line-height:1.8em;
+    font-size: 1.5rem;
+	line-height:1.8rem;
 	color: #777;
-	margin-top: 1em;
+	margin-top: 1rem;
+	font-family: 'ContrailOne-Regular';
 }
-.banner1{
-	background:url(../images/bnr1.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:638px;
-	z-index: 33;
-}
-.banner2{
-	background:url(../images/bnr2.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:638px;
-}
-.banner3{
-	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:638px;
-}
+
 
 
 @media screen and (max-width: 1068px) and (min-width: 768px) {
@@ -181,7 +183,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 	.caption h3{ font-size: 2.5rem; font bold; font-family:'ContrailOne-Regular'; }
 	.caption p{ font-size: 1.5rem;color: #fff;line-height: 1.4rem;
 	    padding: 1rem 0 2rem;}
-	.caption a{ margin-bottom: 2rem;}    
+	.caption a{ margin-bottom: 2rem;} 
+
+	.incredible-grid{ width: 50%; float: left;}
+	.training-grid{ width: 33.33%; float: left;}
 }
 
 @media screen and (max-width: 768px) and (min-width: 466px) {
@@ -218,7 +223,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 	    padding: 1rem 0 2rem;}
 	.caption a{ margin-bottom: 2rem;}  
 
-	
+	.incredible-grid{ width: 50%; float: left;}
+	.training-grid{ width: 33.33%; float: left;}
 }
 
 @media screen and (max-width: 466px) {
@@ -261,6 +267,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	ul.callbacks_tabs.callbacks1_tabs {
 	    left: 40%;
 	}  
+
+	
+
 }
 
 
